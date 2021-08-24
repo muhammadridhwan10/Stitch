@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111783805429",
+    "project_id": "stitch-34c87",
+    "storage_bucket": "stitch-34c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111783805429:android:07e7eacd4c0bc40d7ae0bc",
+        "android_client_info": {
+          "package_name": "com.android.stitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111783805429-gmj10l6efglp06ssf26bj0emilt84qs0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.stitch",
+            "certificate_hash": "a3b6f5c59e14a64b08967ee5f7138c85929a7c2b"
+          }
+        },
+        {
+          "client_id": "111783805429-s0jb0r0nu7d0rcalu5cg1simaktrvif5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD53RmB8oDoXJmCXh7oOTbMDyCIjQwhCBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111783805429-s0jb0r0nu7d0rcalu5cg1simaktrvif5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.BaruActivity"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                <Button-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="S"-->
+<!--                    android:layout_marginLeft="1dp">-->
+
+<!--                </Button>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="M"-->
+<!--                        android:layout_marginLeft="1dp">-->
+
+<!--                    </Button>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="L"-->
+<!--                        android:layout_marginLeft="1dp">-->
+
+<!--                    </Button>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="1dp"-->
+<!--                        android:text="XL">-->
+
+<!--                    </Button>-->
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Range Ukuran"-->
+<!--                        android:textColor="@color/colorPrimaryDark" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/lingkarbadan"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/lignkarpinggang"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/lingkarpinggul"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/lingkarbahu"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/panjangtangan"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/panjangbaju"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+<!--                    <TextView-->
+<!--                        android:id="@+id/harga"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="..."-->
+<!--                        android:textColor="#657191"-->
+<!--                        android:textSize="13dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lingkar Badan"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_google">
+
+
+                <EditText
+                    android:id="@+id/edt_lingkarbadan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:background="@null"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_panduanlb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Mengukur"
+                android:textSize="11dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lingkar Pinggang"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_btn_google">
+
+                <EditText
+                    android:id="@+id/edt_lingkarpinggang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:maxLength="14"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_panduanlp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Mengukur"
+                android:textSize="11dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lingkar Bahu"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_btn_google">
+
+                <EditText
+                    android:id="@+id/edt_lingkarbahu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:background="@null"
+                    android:maxLength="14"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_panduanlbahu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Mengukur"
+                android:textSize="11dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panjang Lengan "
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_btn_google">
+
+                <EditText
+                    android:id="@+id/edt_panjanglengan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:background="@null"
+                    android:maxLength="14"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_panduanpl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Mengukur"
+                android:textSize="11dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panjang Baju"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_btn_google">
+
+                <EditText
+                    android:id="@+id/edt_panjangbaju"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:background="@null"
+
+                    android:maxLength="14"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_panduanpb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Mengukur"
+                android:textSize="11dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_simpan"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="15dp"
+                android:background="@drawable/bg_btn_beli"
+                android:paddingHorizontal="15dp"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
